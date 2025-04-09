@@ -1,7 +1,7 @@
 // Scripted Pipeline
 // Declarative Pipeline
 pipeline {
-	agents any
+	agent any
 	stages {
 		stage('Build') {
 			steps {
